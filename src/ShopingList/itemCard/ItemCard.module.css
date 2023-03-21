@@ -1,0 +1,42 @@
+.itemCard {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border-bottom: 1px gray solid ;
+}
+
+.cardName {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.delete {
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    /* background-color: #bbb; */
+    border: 1px gray solid;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.checkbox {
+    margin: 0;
+    display: none;
+    /* width: 125px; */
+}
+
+.checkboxLabel{
+    border: 1px black solid;
+    border-radius: 0.2rem;
+    width: 1.5rem;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

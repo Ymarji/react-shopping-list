@@ -1,0 +1,21 @@
+.container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+}
+
+.basicInput {
+    padding: 1rem;
+    border: 1px gray solid;
+    border-radius: 0.25rem;
+}
+.inputName {
+    flex: 0 1 50%;
+}
+.inputPrice {
+    flex: 0 1 25%;
+}
+.buttonAdd {
+    flex: 0 1 20%;
+}
